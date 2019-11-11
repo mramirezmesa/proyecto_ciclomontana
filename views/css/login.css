@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.background-login{
+  position:relative;
+  height:100vh;
+  background: rgba(98,125,77,1);
+background: -moz-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(98,125,77,1) 36%, rgba(139,158,123,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,125,77,1)), color-stop(36%, rgba(98,125,77,1)), color-stop(100%, rgba(139,158,123,1)));
+background: -webkit-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(98,125,77,1) 36%, rgba(139,158,123,1) 100%);
+background: -o-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(98,125,77,1) 36%, rgba(139,158,123,1) 100%);
+background: -ms-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(98,125,77,1) 36%, rgba(139,158,123,1) 100%);
+background: linear-gradient(to right, rgba(98,125,77,1) 0%, rgba(98,125,77,1) 36%, rgba(139,158,123,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#8b9e7b', GradientType=1 );
+}
+
+form#login{
+  position:absolute;
+  border-radius:5px;
+  box-shadow:0px 0px 10px #001;
+  width:300px;
+  height:auto;
+  left:50%;
+  top:40%;
+  margin-left:-150px;
+  margin-top:-115px;
+  background:#eee;
+  padding:0px 20px 10px 20px;
+}
+
+
+
+form h1#titulologin{
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size: 14px;
+  line-height:50px;
+  background:#333;
+  color:white;
+
+}
+
+
+
+form input.login{
+  margin:10px auto;
+}
+
+.loginimg{
+  margin: 0 auto 0 auto;
+
+}
